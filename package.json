@@ -1,0 +1,33 @@
+{
+  "name": "next.js-blog",
+  "version": "1.0.0",
+  "description": "front:next.js backend:notion blog",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "author": "Jalnik",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@notionhq/client": "^2.2.14",
+    "dotenv": "^16.4.5",
+    "next": "^14.1.3",
+    "next-themes": "^0.2.1",
+    "notion-client": "^6.16.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "react-lottie-player": "^1.5.6",
+    "react-notion-x": "^6.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.25",
+    "@types/react": "18.2.64",
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "5.4.2"
+  }
+}
