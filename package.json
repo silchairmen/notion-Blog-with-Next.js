@@ -4,7 +4,10 @@
   "description": "front:next.js backend:notion blog",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "author": "Jalnik",
   "license": "MIT",
