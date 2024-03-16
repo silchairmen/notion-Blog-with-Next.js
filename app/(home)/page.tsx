@@ -1,9 +1,9 @@
-
 import { Suspense } from "react";
 import Animation from "../../components/gostAnimation";
 import CountVisit from "./visit";
 import RecentPostList from "./RecentPost";
 import { Metadata } from "next";
+import { revalidatePath } from "next/cache"
 
 export const metadata : Metadata = {
   title : "Jalnik Blog",
@@ -12,6 +12,8 @@ export const metadata : Metadata = {
 }
 
 export default async function Home() {
+  revalidatePath('/', 'layout')
+  revalidatePath('/lecture', 'layout');
 
   return (
     <section className="flex min-h-screen flex-col body-font px-10">

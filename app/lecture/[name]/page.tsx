@@ -3,13 +3,12 @@ import { GetSubLectureList } from "../../../contents/notionAPI"
 import PreViewCard from "../../../components/PreViewCard";
 
 
+// 부제목 섹션
 export default async function SubLecturePage(subLectureName: any){
 
     const lectureName = subLectureName.searchParams.subLectureName
 
     const subLectures = await GetSubLectureList(lectureName);
-
-
 
 
     return (
