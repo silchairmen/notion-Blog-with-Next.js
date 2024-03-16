@@ -13,7 +13,6 @@ export const metadata : Metadata = {
 
 export default async function Home() {
   revalidatePath('/', 'layout')
-  revalidatePath('/lecture', 'layout');
 
   return (
     <section className="flex min-h-screen flex-col body-font px-10">

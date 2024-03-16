@@ -1,6 +1,6 @@
 import Link from "next/link";
 import LectureSection from "./lectureSection";
-
+import { revalidatePath } from "next/cache";
 import { Metadata } from "next";
 
 export const metadata : Metadata = {
@@ -12,6 +12,8 @@ export const metadata : Metadata = {
 
 //강좌 형식으로 제작된 콘텐츠를 나열할 수 있도록 함
 export default function Category(){
+    revalidatePath('/lecture', 'layout');
+
     return(
         <section className="min-h-screen flex justify-center items-center">
             <div className="max-w-screen-lg">
