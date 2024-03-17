@@ -30,7 +30,7 @@ export default function PreViewCard(post: any){
                             <div className="group py-2 px-3 grid z-10 min-h-[110px]">
                                 <Link href={`/post/${title}`}>                
                                     <div className="flex min-h-[60px]">
-                                        <span className="py-2 font-bold text-md text-white">{title.length > 35 ? `${title.substring(0, 35)}...` : title}</span>
+                                        <span className="py-2 font-bold text-md text-white">{title.length > 40 ? `${title.substring(0, 40)}...` : title}</span>
                                     </div>
                                 </Link>
                                 <div className="flex py-1">
