@@ -3,7 +3,7 @@ import { GetRecentPosts } from "../../contents/notionAPI"
 
 
 export default async function RecentPostList() {
-    const size = 4;
+    const size = 8;
     const posts = await GetRecentPosts(size);
     
     return(

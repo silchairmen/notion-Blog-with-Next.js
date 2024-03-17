@@ -22,7 +22,8 @@ export async function GetPostCount() {
 // page size를 기준으로 최신의 글을 가져옴
 export async function GetRecentPosts(pages: number) {
     const posts = await notion.databases.query({
-        database_id: NOTION_DATABASE_ID
+        database_id: NOTION_DATABASE_ID,
+        page_size: pages
     })
 
 
