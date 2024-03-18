@@ -1,6 +1,7 @@
 import Footer from "../components/footer"
 import Header from "../components/Header"
 import "../styles/globals.css"
+import Script from "next/script"
 
 export const metadata = {
   title: 'Next.js',
@@ -14,6 +15,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+      <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2566743264141875" crossOrigin="anonymous"></Script>
+        <meta name="google-adsense-account" content="ca-pub-2566743264141875"/>
+      </head>
       <body className="bg-gray-800">
       <Header />
         {children}
