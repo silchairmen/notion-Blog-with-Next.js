@@ -17,7 +17,7 @@ export default async function Lecture(LectureList : any) {
                 <Link href={`/lecture/subLecture?subLectureName=${subLecture}`}>
               <div key={index} className="bg-gray-100 p-4 rounded-md flex flex-col items-center justify-center text-center hover:animate-bounce" style={{ flex: '1' }}>
                   <div className="text-3xl font-bold mb-2">{subLecture.charAt(0).toUpperCase()}</div>
-                  <div className="font-mono underline font-bold underline-offset-4 min-h-12 max-h-12">{subLecture}</div>
+                  <div className="font-mono underline font-bold underline-offset-4 min-h-11 max-h-11">{subLecture}</div>
               </div>
 
                 </Link>

@@ -148,6 +148,12 @@ export async function GetLectureList() {
 export async function GetSubLectureList(LectureName:string) {
     const baseQuery = {
         database_id: NOTION_DATABASE_ID,
+        sorts: [
+            {
+            property: "이름",
+            direction: "descending",
+            },
+        ],
         filter: {
             property: "LectureName",
             rich_text: {
