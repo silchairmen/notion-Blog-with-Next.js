@@ -62,7 +62,7 @@ export async function GetPostInfo(id: string){
  * @returns all docs list 
  * @todo 30개씩 렌더링 하도록 변경하기
  */
-export async function GetAllDocs(search: any){
+export async function GetAllDocs(search?: any){
 
     //base는 모든 요소 찾기
     const baseQuery: any = {
@@ -74,8 +74,13 @@ export async function GetAllDocs(search: any){
           },
         ],
     };
+    let searchName;
 
-    const searchName = search.searchParams.search;
+    try {
+        searchName = search.searchParams.search
+    } catch (error) {
+        searchName = false
+    }
 
     if (searchName) {
         baseQuery.filter = {
