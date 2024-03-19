@@ -26,13 +26,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             },
         
         {
-            url: 'https://bobong.blog/docs',
+            url: 'https://jalnik.vercel.app/docs',
             lastModified: new Date(),
             changeFrequency: 'weekly',
             priority: 0.5,
         }, 
         ...(await posts.results).map((post: any) => ({
-            url: `https://bobong.blog/post/${encodeURIComponent(post.properties.이름.title[0].plain_text)}`,
+            url: `https://jalnik.vercel.app/post/${encodeURIComponent(post.properties.이름.title[0].plain_text)}`,
             lastModified: `${post.last_edited_time}`,
             priority: 0.7
         }))
