@@ -9,6 +9,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         {
             url: 'https://jalnik.vercel.app',
             lastModified: new Date(),
+            priority: 1,
         },
         {
             url: 'https://jalnik.vercel.app/introduce',
