@@ -7,7 +7,7 @@ import PostDetail from "../../../components/postDetail";
 export async function generateMetadata({params:{id}}:{params:{id:string}}): Promise<Metadata> {
     const title = await GetPostId(id)
     if(title !== null){
-      const info : any = await GetPostInfo(title)
+      const info : any = await GetPostInfo(decodeURIComponent(title))
       const postTitle = info.properties.이름.title[0].plain_text
       return {
         title: `${postTitle}`,
@@ -25,7 +25,7 @@ export async function generateMetadata({params:{id}}:{params:{id:string}}): Prom
     const notion = new NotionAPI();
     const title = await GetPostId(id)
     if(title !==null){
-      const recordMap = await notion.getPage(title);
+      const recordMap = await notion.getPage(decodeURIComponent(title));
       return (
         <main>
           <PostDetail recordMap={recordMap} />

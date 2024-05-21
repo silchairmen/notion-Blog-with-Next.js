@@ -32,7 +32,7 @@ export async function GetRecentPosts(pages: number) {
 
 
 export async function GetPostId(id: string){
-    const title = decodeURIComponent(id)
+    const title = id
     const post = await notion.databases.query({
         database_id: NOTION_DATABASE_ID,
         filter: {
