@@ -27,7 +27,7 @@ export default function Introduce() {
                         <p className="text-left mb-8 text-white">
                             🏫 우석대학교 정보보안학과 학사 과정<br />
                             👨‍🏫 KITRI BoB (Best of the Best) 11th <br />
-                            👑 Information security club SOTI 1th leader <br />
+                            👑 Information security club SOTI 1st leader <br />
                             🤠 Interested in penetration testing.
                         </p>
                     </div>
