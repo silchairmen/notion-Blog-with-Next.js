@@ -28,7 +28,7 @@ export default function PreViewCard(post: any){
                                     />
                             </Link>
                             <div className="group py-2 px-3 grid z-10 min-h-[110px]">
-                                <Link href={`/post/${title}`}>                
+                                <Link href={`/post/${encodeURIComponent(title)}`}>                
                                     <div className="flex min-h-[60px]">
                                         <span className="py-2 font-bold text-md text-white">{title.length > 40 ? `${decodeURIComponent(title).substring(0, 40)}...` : decodeURIComponent(title)}</span>
                                     </div>
