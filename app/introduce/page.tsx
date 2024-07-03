@@ -39,6 +39,7 @@ export default function Introduce() {
                         2023 호남 웹 취약점 분석 경진대회 장려상 <br/>
                         2023 한국교통안전공단 웹 취약점 분석 대회(일반부) 장려상 <br/>
                         2023 파인더갭 X-MAS 버그바운티 경진대회 우수상 <br />
+                        2024 전라남도 웹 취약점 경진대회 우수상 <br />
                     </p>
                     <h1 className="mb-4 pb-2 border-b border-gray-300 text-3xl text-blue-400 font-bold mt-20">😗 Activity</h1>
                     <p>
