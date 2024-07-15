@@ -20,7 +20,7 @@ export default function Introduce() {
                         Hi! 반갑습니다.<br/>
                         제 블로그는 제 소소한 일상과 정보보안에 대하여 기록하는 블로그 입니다.<br/>
                         Lecture 처럼 목록화하여 천천히 공부할 수 있게 분류도 해놓았기 때문에. 도움이 많이 되었으면 좋겠습니다.<br/>
-                        이외에 블로그에 대하여 피드백 주시거나 블로그에 오류가 있다면 <span>Email</span>로 연락 주시면 감사하겠습니다.
+                        이외에 블로그에 대하여 피드백 주시거나 글에 오류가 있다면 <span>Email</span>로 연락 주시면 감사하겠습니다.
                     </p>
                     <div>
                         <h1 className="mb-4 pb-2 border-b border-gray-300 text-3xl text-orange-500 font-bold mt-10">🤠 About me</h1>
@@ -52,10 +52,11 @@ export default function Introduce() {
                          Team CVE with CC Bomber 🚀)<br/>
                         2024 제 1회 우석대학교 CTF 주최(PL)<br/>
                     </p>
-                    <h1 className="mb-4 pb-2 border-b border-gray-300 text-3xl text-teal-400 font-bold mt-20">😎 Presentation</h1>
+                    <h1 className="mb-4 pb-2 border-b border-gray-300 text-3xl text-orange-500 font-bold mt-20">😎 Presentation</h1>
                     <p className="mb-8 text-white">
                         2023 유일여고 (실제 웹에서 일어나는 해킹 시연)<br/>
                         2023 중국 교환학생 대상 학과시연 (다양한 해킹 도구를 이용한 해킹 실습)<br/>
+                        2023 완주 청소년수련관 중등 대상 교육 (컴퓨터로 할 수 있는 다양한 것들)<br/>
                         2024 우석대학교 학부생 대상 모의해킹 강연(웹/앱 모의해킹이란?)<br/>
                     </p>
                     <h1 className="mb-4 pb-2 border-b border-gray-300 text-3xl text-blue-400 font-bold mt-20">😗 Activity</h1>
