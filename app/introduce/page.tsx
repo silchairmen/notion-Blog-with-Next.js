@@ -37,7 +37,7 @@ export default function Introduce() {
                         2023 우리은행 모의해킹 경진대회 장려상 <br/>
                         2023 호남 침해대응 분석/경진대회 최우수상 <br/>
                         2023 호남 웹 취약점 분석 경진대회 장려상 <br/>
-                        2023 우석대학교 컴퓨팅 사고 경진대회 대상 - 총장상 <br/>
+                        2023 우석대학교 컴퓨팅 사고 경진대회 대상(총장상) <br/>
                         2023 한국교통안전공단 웹 취약점 분석 대회(일반부) 장려상 <br/>
                         2023 파인더갭 X-MAS 버그바운티 경진대회 우수상 <br />
                         2024 전라남도 웹 취약점 경진대회 우수상 <br />
@@ -45,17 +45,17 @@ export default function Introduce() {
                     <h1 className="mb-4 pb-2 border-b border-gray-300 text-3xl text-teal-400 font-bold mt-20">⚙️ Project</h1>
                     <p className="mb-8 text-white">
                         2023 CI/CD Platform 취약점 분석 (jenkins, Teamcity...)<br/>
-                        (CVE-2022-45401, CVE-2022-45382, CVE-2022-45398,<br/>
+                        (CVE-2022-45401, CVE-2022-45382, CVE-2022-45398,
                          CVE-2022-45399, CVE-2022-45400, CVE-2022-46682,<br/>
-                         CVE-2022-45397, CVE-2022-45396, CVE-2022-45393,<br/>
+                         CVE-2022-45397, CVE-2022-45396, CVE-2022-45393,
                          CVE-2022-45394, CVE-2022-45395 <br/>
                          Team CVE with CC Bomber 🚀)<br/>
                         2024 제 1회 우석대학교 CTF 주최(PL)<br/>
                     </p>
                     <h1 className="mb-4 pb-2 border-b border-gray-300 text-3xl text-orange-500 font-bold mt-20">😎 Presentation</h1>
                     <p className="mb-8 text-white">
-                        2023 유일여고 (실제 웹에서 일어나는 해킹 시연)<br/>
-                        2023 중국 교환학생 대상 학과시연 (다양한 해킹 도구를 이용한 해킹 실습)<br/>
+                        2023 유일여고 정보보안 소개 (실제 웹에서 일어나는 해킹 시연)<br/>
+                        2023 교환학생 대상 학과시연 (다양한 해킹 도구를 이용한 해킹 실습)<br/>
                         2023 완주 청소년수련관 중등 대상 교육 (컴퓨터로 할 수 있는 다양한 것들)<br/>
                         2024 우석대학교 학부생 대상 모의해킹 강연(웹/앱 모의해킹이란?)<br/>
                     </p>
