@@ -25,9 +25,9 @@ export default function Introduce() {
                     <div>
                         <h1 className="mb-4 pb-2 border-b border-gray-300 text-3xl text-orange-500 font-bold mt-10">🤠 About me</h1>
                         <p className="text-left mb-8 text-white">
-                            🏫 우석대학교 정보보안학과 학사 과정<br />
+                            🏫 우석대학교 정보보안학과 학사 졸업<br />
                             👨‍🏫 KITRI BoB (Best of the Best) 11th <br />
-                            👑 Information security club SOTI 1st leader <br />
+                            👑 Information security club SOTI 1st leader(2023) <br />
                             🤠 Interested in penetration testing.
                         </p>
                     </div>
@@ -41,6 +41,7 @@ export default function Introduce() {
                         2023 한국교통안전공단 웹 취약점 분석 대회(일반부) 장려상 <br/>
                         2023 파인더갭 X-MAS 버그바운티 경진대회 우수상 <br />
                         2024 전라남도 웹 취약점 경진대회 우수상 <br />
+                        2024 우리은행 모의해킹 경진대회 대상<br />
                     </p>
                     <h1 className="mb-4 pb-2 border-b border-gray-300 text-3xl text-teal-400 font-bold mt-20">⚙️ Project</h1>
                     <p className="mb-8 text-white">
