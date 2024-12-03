@@ -51,6 +51,8 @@ export default function Introduce() {
                          CVE-2022-45397, CVE-2022-45396, CVE-2022-45393,
                          CVE-2022-45394, CVE-2022-45395 <br/>
                          Team CVE with CC Bomber 🚀)<br/>
+                        </li>
+                        <li>
                         2024 제 1회 우석대학교 CTF 주최(PL)<br/>
                         </li>
                     </ul>
