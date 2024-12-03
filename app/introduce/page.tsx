@@ -44,15 +44,16 @@ export default function Introduce() {
                         2024 우리은행 모의해킹 경진대회 대상<br />
                     </p>
                     <h1 className="mb-4 pb-2 border-b border-gray-300 text-3xl text-teal-400 font-bold mt-20">⚙️ Project</h1>
-                    <p className="mb-8 text-white">
-                        2023 CI/CD Platform 취약점 분석 (jenkins, Teamcity...)<br/>
+                    <ul className="mb-8 text-white">
+                        <li>2023 CI/CD Platform 취약점 분석 (jenkins, Teamcity...)<br/>
                         (CVE-2022-45401, CVE-2022-45382, CVE-2022-45398,
                          CVE-2022-45399, CVE-2022-45400, CVE-2022-46682,<br/>
                          CVE-2022-45397, CVE-2022-45396, CVE-2022-45393,
                          CVE-2022-45394, CVE-2022-45395 <br/>
                          Team CVE with CC Bomber 🚀)<br/>
                         2024 제 1회 우석대학교 CTF 주최(PL)<br/>
-                    </p>
+                        </li>
+                    </ul>
                     <h1 className="mb-4 pb-2 border-b border-gray-300 text-3xl text-orange-500 font-bold mt-20">😎 Presentation</h1>
                     <p className="mb-8 text-white">
                         2023 유일여고 정보보안 소개 (실제 웹에서 일어나는 해킹 시연)<br/>
